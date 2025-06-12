@@ -70,13 +70,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - +
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - _
+  - {t: '=', s: +}
   - '{'
   - '}'
-  - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -88,9 +88,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - HOME
   - AltGr+H
@@ -100,9 +100,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - END
   - $$mdi:arrow-left-bold$$
