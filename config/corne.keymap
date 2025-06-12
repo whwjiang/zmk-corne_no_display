@@ -74,8 +74,8 @@
 
             bindings = <
 &bt BT_CLR_ALL  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME         &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(COMMA)     &bootloader
-&bt BT_NXT      &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP      &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(SLASH)     &sys_reset
-&trans          &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN    &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &trans
+&bt BT_NXT      &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP      &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(TAB)       &sys_reset
+&trans          &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN    &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &kp RA(NUMBER_6)
                                  &trans   &trans   &trans           &trans            &trans            &trans
             >;
         };
