@@ -109,7 +109,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: AltGr+/, s: 'AltGr+?'}
+  - AltGr+$$mdi:keyboard-tab$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - F9
@@ -122,7 +122,7 @@ layers:
   - AltGr+3
   - AltGr+4
   - AltGr+5
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
