@@ -185,21 +185,21 @@ combos:
 - p: [23, 35]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [TYPE]
-- p: [1, 13]
+- p: [1, 25]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
-- p: [2, 14]
+- p: [2, 26]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
-- p: [3, 15]
+- p: [3, 27]
   k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
-- p: [4, 16]
+- p: [4, 28]
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
-- p: [5, 17]
+- p: [5, 29]
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
-- p: [13, 25]
+- p: [11, 35]
   k: $$mdi:bluetooth-off$$
   l: [TYPE]
