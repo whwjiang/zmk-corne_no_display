@@ -26,7 +26,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '-', s: _}
+  - $$mdi:alpha-w-box$$
   - Q
   - J
   - K
@@ -41,7 +41,7 @@ layers:
   - {t: '''', h: NUM, s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
-  - {t: ;, h: NAV, s: ':'}
+  - {t: ;, h: NAV/FN, s: ':'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -71,9 +71,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - _
+  - {t: '[', s: '{'}
+  - {t: '-', s: _}
   - {t: '=', s: +}
   - '{'
   - '}'
@@ -86,12 +86,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NAV:
+  NAV/FN:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
+  - F1
+  - F2
+  - F3
+  - F4
   - HOME
   - AltGr+H
   - AltGr+J
@@ -100,11 +100,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
-  - END
+  - F5
+  - F6
+  - F7
+  - F8
+  - PG UP
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -112,11 +112,11 @@ layers:
   - AltGr+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
+  - PG DN
   - AltGr+1
   - AltGr+2
   - AltGr+3
@@ -129,19 +129,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  FN:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  BT:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -166,6 +154,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -173,33 +173,15 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 12]
+- p: [0, 24]
   k: $$mdi:progress-download$$
-  l: [TYPE]
-- p: [11, 23]
-  k: $$mdi:progress-download$$
-  l: [TYPE]
-- p: [12, 24]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [TYPE]
-- p: [23, 35]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [TYPE]
-- p: [1, 25]
-  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [2, 26]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [3, 27]
-  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [4, 28]
-  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [5, 29]
-  k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
 - p: [11, 35]
-  k: $$mdi:bluetooth-off$$
+  k: $$mdi:progress-download$$
+  l: [TYPE]
+- p: [0, 36]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [TYPE]
+- p: [11, 41]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [TYPE]
