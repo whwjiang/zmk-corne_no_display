@@ -26,7 +26,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:alpha-w-box$$
+  - '&vscode'
   - Q
   - J
   - K
