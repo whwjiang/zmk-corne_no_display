@@ -54,6 +54,15 @@
         };
     };
 
+    macros {
+        vscode: vscode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(SEMICOLON)>;
+            label = "VSCODE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -67,10 +76,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp GRAVE   &kp COMMA  &kp DOT        &kp P      &kp Y                     &kp F      &kp G            &kp C            &kp R  &kp L  &kp BSPC
-&kp CAPS   &kp A       &kp O      &kp E          &kp U      &kp I                     &kp D      &kp H            &kp T            &kp N  &kp S  &kp FSLH
-&kp LSHFT  &caps_word  &kp Q      &kp J          &kp K      &kp X                     &kp B      &kp M            &kp W            &kp V  &kp Z  &kp RSHFT
-                                  &mt LCTRL ESC  &lt 1 SQT  &mt LEFT_COMMAND ENTER    &kp SPACE  &lt 2 SEMICOLON  &mt RALT DELETE
+&kp TAB    &kp GRAVE  &kp COMMA  &kp DOT        &kp P      &kp Y                     &kp F      &kp G            &kp C            &kp R  &kp L  &kp BSPC
+&kp CAPS   &kp A      &kp O      &kp E          &kp U      &kp I                     &kp D      &kp H            &kp T            &kp N  &kp S  &kp FSLH
+&kp LSHFT  &vscode    &kp Q      &kp J          &kp K      &kp X                     &kp B      &kp M            &kp W            &kp V  &kp Z  &kp RSHFT
+                                 &mt LCTRL ESC  &lt 1 SQT  &mt LEFT_COMMAND ENTER    &kp SPACE  &lt 2 SEMICOLON  &mt RALT DELETE
             >;
         };
 
