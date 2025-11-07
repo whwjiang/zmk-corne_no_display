@@ -17,11 +17,11 @@ layers:
   - A
   - O
   - E
-  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
+  - U
   - I
   - D
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - H
+  - T
   - N
   - S
   - {t: /, s: '?'}
