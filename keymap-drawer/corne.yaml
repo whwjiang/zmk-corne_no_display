@@ -20,8 +20,8 @@ layers:
   - U
   - I
   - D
-  - H
-  - T
+  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
   - N
   - S
   - {t: /, s: '?'}
@@ -63,8 +63,8 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
+  - {t: '&', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
