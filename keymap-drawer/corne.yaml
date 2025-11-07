@@ -17,7 +17,7 @@ layers:
   - A
   - O
   - E
-  - U
+  - {t: U, h: '$$mdi:apple-keyboard-option$$'}
   - I
   - D
   - {t: H, h: '$$mdi:apple-keyboard-command$$'}
@@ -60,7 +60,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - {t: $, h: '$$mdi:apple-keyboard-option$$'}
   - '%'
   - ^
   - {t: '&', h: '$$mdi:apple-keyboard-command$$'}
