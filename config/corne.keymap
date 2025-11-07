@@ -78,10 +78,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp GRAVE       &kp COMMA  &kp DOT        &kp P           &kp Y                     &kp F      &kp G                &kp C            &kp R  &kp L  &kp BSPC
-&kp CAPS   &kp A           &kp O      &kp E          &mt LEFT_ALT U  &kp I                     &kp D      &mt RIGHT_COMMAND H  &mt RCTRL T      &kp N  &kp S  &kp FSLH
-&kp LSHFT  &kp APOSTROPHE  &kp Q      &kp J          &kp K           &kp X                     &kp B      &kp M                &kp W            &kp V  &kp Z  &kp RSHFT
-                                      &mt LCTRL ESC  &mo 1           &mt LEFT_COMMAND ENTER    &kp SPACE  &lt 2 SEMICOLON      &mt RALT DELETE
+&kp TAB    &kp GRAVE       &kp COMMA  &kp DOT        &kp P  &kp Y                     &kp F      &kp G            &kp C            &kp R  &kp L  &kp BSPC
+&kp CAPS   &kp A           &kp O      &kp E          &kp U  &kp I                     &kp D      &kp H            &kp T            &kp N  &kp S  &kp FSLH
+&kp LSHFT  &kp APOSTROPHE  &kp Q      &kp J          &kp K  &kp X                     &kp B      &kp M            &kp W            &kp V  &kp Z  &kp RSHFT
+                                      &mt LCTRL ESC  &mo 1  &mt LEFT_COMMAND ENTER    &kp SPACE  &lt 2 SEMICOLON  &mt RALT DELETE
             >;
         };
 
