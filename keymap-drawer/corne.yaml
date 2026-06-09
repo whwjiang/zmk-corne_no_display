@@ -93,10 +93,10 @@ layers:
   - F3
   - F4
   - HOME
-  - Gui+H
-  - Gui+J
-  - Gui+K
-  - Gui+L
+  - AltGr+H
+  - AltGr+J
+  - AltGr+K
+  - AltGr+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -117,12 +117,12 @@ layers:
   - F11
   - F12
   - PG DN
-  - Gui+1
-  - Gui+2
-  - Gui+3
-  - Gui+4
-  - Gui+5
-  - Gui+6
+  - AltGr+1
+  - AltGr+2
+  - AltGr+3
+  - Alt+U
+  - AltGr+I
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
