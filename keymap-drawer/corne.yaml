@@ -120,8 +120,8 @@ layers:
   - AltGr+1
   - AltGr+2
   - AltGr+3
-  - Alt+U
-  - AltGr+I
+  - Alt+4
+  - AltGr+5
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
